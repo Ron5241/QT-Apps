@@ -1,0 +1,15 @@
+############################
+Building Instructions
+############################
+
+To build the binaries, cd into a 'build' folder in the Project 
+folder and execute the command : 
+
+qmake-qt4 -project ..
+
+This will create a Project file in the build folder. Create the
+Makefile using the following command :
+
+qmake-qt4 *.pro
+
+Then execute 'make' to finish the build process..

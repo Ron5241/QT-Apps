@@ -1,0 +1,3 @@
+#Excluding the Build directories
+Build/
+build/
